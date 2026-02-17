@@ -1,0 +1,48 @@
+body {
+    background-color: #006033;
+    color: #fff;
+    font-family: 'Times New Roman', sans-serif, sans-serif;
+    margin: 40px; /* margin from left and right screen edges) */
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;          /* Remove bullets */
+    display: flex;             /* Activate flexbox */
+    justify-content: center;   /* Center horizontally */
+    gap: 40px;                 /* Space between links */
+    padding: 0;
+    margin: 0;
+}
+
+/* Style links */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.indent {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+section ul {
+    font-size: 1.5em;
+}
+section ol {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
