@@ -1,1 +1,1 @@
-# comp484-project1
+https://mateo-codes.github.io/comp484-project1/index.html
