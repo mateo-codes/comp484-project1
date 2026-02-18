@@ -62,6 +62,8 @@ a {
     margin: 30px auto;
     border-radius: 10px;
 }
+
+/* Create a split section horizontally, one side ofr text, one for an img, or video */
 .split-section {
     display: flex;
     align-items: center;
