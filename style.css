@@ -1,8 +1,8 @@
 body {
-    background-color: #006033;
-    color: #fff;
+    background-color: #134e4a;
+    color: #f0fdfa;
     font-family: 'Times New Roman', sans-serif, sans-serif;
-    margin: 40px; /* margin from left and right screen edges) */
+    margin: 80px; /* margin from left and right screen edges */
 }
 
 h1 {
@@ -14,26 +14,29 @@ h2 {
     font-size: 2em;
 }
 
+/* Style nav list*/
 nav ul {
     list-style: none;          /* Remove bullets */
-    display: flex;             /* Activate flexbox */
-    justify-content: center;   /* Center horizontally */
-    gap: 40px;                 /* Space between links */
+    display: flex;             /* For horizontally positioning list elements */
+    justify-content: center;   /* Center horizontally on page */
+    gap: 40px;                 /* gap between the elements */
     padding: 0;
     margin: 0;
 }
 
-/* Style links */
+/* Style nav links */
 nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-size: 2em;
+    text-decoration: underline;
 }
 
+/* indent helper class */
 .indent {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 section ul {
@@ -42,7 +45,45 @@ section ul {
 section ol {
     font-size: 1.5em;
 }
+section dl {
+    font-size: 1.5em;
+}
 
 p {
     font-size: 1.5em;
+}
+
+a {
+    color: #5165f7;
+}
+
+.center-img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.split-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.image-content video {
+    max-width: 100%;
+    border-radius: 10px;
 }
